@@ -18,21 +18,21 @@ function destructivelyRemoveFirstKitten(name) {
 }
 
 function appendKitten(name) {
-  newKittensList = kittens.push(name);
+  var newKittensList = kittens.push(name);
   return newKittensList;
 }
 
 function prependKitten(name) {
-  newKittensList = kittens.unshift(name);
+  var newKittensList = kittens.unshift(name);
   return newKittensList;
 }
 
 function removeLastKitten() {
-  lessKittens = kittens.pop();
+  var lessKittens = kittens.pop();
   return lessKittens;
 }
 
 function removeFirstKitten() {
-  lessKittens = kittens.shift();
+  var lessKittens = kittens.shift();
   return lessKittens;
 }
